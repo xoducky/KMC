@@ -40,6 +40,11 @@ max-height: 500px;
   padding:0rem;
 }
 
+@media (min-width: 576px)
+.jumbotron {
+    padding:0rem;
+}
+
 
 
 .creditbar ul {
