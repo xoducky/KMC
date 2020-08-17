@@ -3,45 +3,37 @@
 <title>Kubota Materials Canada Corporation</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-teal.css">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css">
+ <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
 <link rel="stylesheet" href="KMCstyle.css">
 <body>
 
-<link rel="icon" type="image/x-icon" href="" />
+
 <!-- Header -->
-<header class=" kubota-theme w3-padding" id="myHeader">
-<button class="fa fa-bars w3-xlarge w3-button kubota-theme" onclick="document.getElementById('id01').style.display='block'" style="font-weight:900;"></button>
-<div class="w3-center">
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="#">Navbar</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
 
-</div>
-</header>
+  <div class="collapse navbar-collapse" id="navbar">
+    <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Link</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+      </li>
+    </ul>
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="search" placeholder="Search">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+    </form>
+  </div>
+</nav>
 
-<!-- Nav Modal -->
-<div id="id01" class="w3-modal">
-<div class="w3-modal-content w3-card-4 w3-animate-top">
-<header class="kubota-theme">
-<span onclick="document.getElementById('id01').style.display='none'"
-class="w3-button w3-display-topright">&times;</span>
-</header>
-<body><div class="nav-links">
-<ul>
-<li><a href="http://scratchpad.io/vulgar-tooth-767" class="nav-button">home</a></li>
-<li><a href="http://scratchpad.io/addicted-spark-5541" class="nav-button">our products</a></li>
-<li><a href="#" class="nav-button">our alloys</a></li>
-<li><a href="#" class="nav-button">our processes</a></li>
-<li><a href="#" class="nav-button">our certifications</a></li>
-<li><a href="http://scratchpad.io/steadfast-cemetery-5951" class="nav-button">contact us</a></li>
-<li><a href="http://scratchpad.io/billowy-string-6730" class="nav-button">about us</a></li>
-<li><a href="http://scratchpad.io/frequent-skin-5116" class="nav-button">careers</a></li>
-<li><a href="#" class="nav-button">community</a></li>
-
-
-
-</ul>
-</div></div>
-</div>
 
 <!-- stuffing -->
 <div class="wrapper">
@@ -66,54 +58,13 @@ Kubota Materials Canada Corporation controls all aspects of the manufacturing pr
 
 </p></div>
 </div>
-<div class="w3-col m1 padding"></div>
-</div>
 
-<div class="w3-row">
-<div class="w3-col m1 padding"></div>
-<div class="w3-col m5 w3-container">
-<div class="content"><p>highlight 3</p></div>
-</div>
-<div class="w3-col m5 w3-container">
-<div class="content"><p>highlight 4</p></div>
-</div>
-<div class="w3-col m1 padding"></div>
-</div>
 <script id="__bs_script__">//<![CDATA[
     document.write("<script async src='http://HOST:3000/browser-sync/browser-sync-client.js?v=2.26.7'><\/script>".replace("HOST", location.hostname));
 //]]></script>
 </body>
 
 <!-- Footer -->
-<footer class="kubota-theme bottom">
-<div class="w3-row">
-<div class="w3-col m5 padding">
-<div class="creditbar">
-<ul><li>our alloys</li><li>careers</li><li>our products</li><li>contact us</li><li>our processes</li><li>community</li><li>our certifications</li><li>the kubota report</li></ul>
-</div></div>
 
-<div class="w3-col m3 kubota-holder">-</div>
-
-<div class="w3-col m4 ">
-<span class="creditimg creditimg-text">for earth, for life logo</span>
-</div></div>
-
-
-<div class="w3-row bottom-block">
-<div class="w3-col m4">
-<div class="creditbar2 bottomcred">
-<ul><li><a href="#">site map</a></li><li><a href="#">privacy policy</a></li><li><a href="#">terms of use</a></li></ul>
-</div></div>
-
-<div class="w3-col m4 padding">
-</div>
-
-<div class="w3-col m4">
-<div class="socialmedia "><div class="bottomcred2"><a href="" title="Kubota Materials Facebook page"><div class="fa fa-facebook-square socialbutton fa-2x"></div></a><a href="https://www.linkedin.com/company/kubotamaterialscanadacorporation/" title="Kubota Materials LinkedIn page"><div class="fa fa-linkedin-square socialbutton fa-2x"></div></a><a href="http://www.kubota.com" title="Kubota Corporation Website"><div class="fa fa-globe socialbutton fa-2x"></div></a></div><BR><div class="copyright">Kubota Materials Canada Corporation<BR>© 2005-2019</div></div>
-</div>
-</div>
-
-
-</div>
-
-</footer></BR><html>
+<footer>
+</footer><html>
